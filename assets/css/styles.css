@@ -69,6 +69,7 @@ a {
   border-radius: 6px;
   min-width: 108px;
   line-height: 48px;
+  transition: ease 0.25s;
 }
 .header .Sign-Up-btn:hover {
   background: #1ebfc1;
@@ -135,7 +136,14 @@ a {
   text-align: center;
   min-width: 186px;
   line-height: 68px;
+  transition: ease-in 0.2s;
 }
+.hero-wrap .btn:hover {
+  background-color: #fff;
+  color: #1ebfc1;
+  border: 1px solid #1ebfc1;
+}
+
 .icon-play-blue {
   margin-left: 50px;
   width: 62px;
@@ -478,4 +486,208 @@ a {
 }
 .popular .wrap-2 .dot {
   margin-left: 10px;
+}
+.countdown {
+  margin-top: 389px;
+}
+.countdown .achievements {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 289px;
+}
+.countdown .achievements span {
+  font-weight: 700;
+  font-size: 6.2rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #0d1111;
+}
+.countdown .achievements p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #767e7e;
+}
+/* feedback */
+.feedback {
+  margin-top: 264px;
+}
+.feedback .info {
+  display: flex;
+  align-items: center;
+}
+
+.feedback .content {
+  width: 40%;
+}
+.feedback .content blockquote {
+  width: 419px;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  color: #5d6564;
+}
+.feedback .content p.desc {
+  margin-top: 33px;
+  font-weight: 550;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #000000;
+}
+.feedback .content strong {
+  color: #767e7e;
+  font-weight: 400;
+}
+.feedback .content .icons {
+  margin-top: 52px;
+  display: flex;
+}
+.feedback .content .icon {
+  width: 6px;
+  height: 12px;
+}
+.feedback .content .icon-1 {
+  width: 50px;
+  height: 50px;
+  background-color: #1ebfc1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feedback .content .icon-1:hover {
+}
+.feedback .content .icon-2 {
+  margin-left: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #1ebfc1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feedback .avatars {
+  position: relative;
+  background-color: #fb9899;
+  width: 60%;
+}
+.feedback .avatars .avatar-main {
+  position: absolute;
+  top: -100px;
+  left: 270px;
+}
+.feedback .avatars .avt2 {
+  position: absolute;
+  top: 200px;
+  left: -250px;
+}
+.feedback .avatars .avt3 {
+  position: absolute;
+  bottom: -140px;
+  left: 10px;
+}
+.feedback .avatars .avt4 {
+  position: absolute;
+  bottom: -130px;
+  left: 270px;
+}
+.feedback .avatars .avt5 {
+  position: absolute;
+  top: -90px;
+  left: 310px;
+}
+.feedback .avatars .avt6 {
+  position: absolute;
+  top: -120px;
+  left: -200px;
+}
+.call-to-action {
+  margin-top: 230px;
+  padding: 76px 330px 88px 135px;
+  background: #def6f5;
+}
+.call-to-action .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.call-to-action .info .title {
+  font-weight: 700;
+  font-size: 4.2rem;
+  line-height: 1.5;
+  color: #070707;
+}
+.call-to-action .info .desc {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #767e7e;
+  margin-top: 18px;
+}
+.call-to-action .info .btn-cta {
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  background: #2ac9bf;
+  border-radius: 14px;
+  padding: 20px 41px;
+  transition: ease 0.2s;
+}
+.call-to-action .info .btn-cta:hover {
+  background-color: #fff;
+  color: #1ebfc1;
+  border: 2px solid #1ebfc1;
+}
+/* footer */
+.main-footer {
+  width: 1440px;
+}
+.wrap-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 131px 135px 157px;
+}
+
+.wrap-footer .title {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #2e2e2e;
+}
+.wrap-footer .column .list {
+  margin-top: 25px;
+}
+.wrap-footer .column a {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #535353;
+}
+
+.wrap-footer .column .list-special {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #535353;
+}
+
+.wrap-footer .column .list-special .Instagram {
+  margin-left: 8px;
+}
+.cpy-right {
+  padding-bottom: 50px;
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #b0b5b4;
 }
